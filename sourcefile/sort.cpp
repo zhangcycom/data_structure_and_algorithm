@@ -32,6 +32,7 @@ void heapSort(vector<int>& a){
     }
 }
 
+
 void quickSort(vector<int>& a, int left, int right){
     if(left<right){
         int pivot=a[left];
@@ -61,6 +62,7 @@ int main(){
     vector<int> a={0,-3,45,23423,124,456,11333};
     coutArray(a);
     // quickSort(a,0,a.size()-1);
+    
     heapSort(a);
     coutArray(a);
 }
